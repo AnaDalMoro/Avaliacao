@@ -20,11 +20,11 @@
   height: 44px;
 }
 
-
 .container{
     display: flex;
     align-items: center;
 }
+
 .container__imagem{
     padding: 1em;
 }
@@ -49,9 +49,32 @@
   color: var(--amarelo);
 }
 
-@media screen and (min-width:825px) {
+.lista-menu__itens{
+  background: var(--roxo-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: text;
+  background-clip: text;
+  text-transform: uppercase;
+
+}
+
+.lista-menu__titulo, .lista-menu__itens{
+  padding: lem;
+  background-color: var(--branco);
+}
+
+.titulo__cabecalho{
+  display: none;
+}
+
+
+@media screen and (min-width:1024px) {
   .titulo__cabecalho{
-    font-size: 18px;
+    font-size: 30px;
+    font-family: var(--font-secundaria);
+    color: rgb(43, 226, 101);
+    display: block;
   }
   
+ 
 }
